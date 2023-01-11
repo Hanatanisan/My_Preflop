@@ -13,25 +13,45 @@ void main() {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              ElevatedButton(
-                child: const Text("open"),
-                onPressed: () {},
+              SizedBox(
+                width: 350,
+                height: 100,
+                child: ElevatedButton(
+                  child: const Text("open"),
+                  onPressed: () {},
+                ),
               ),
-              ElevatedButton(
-                child: const Text("vs Open"),
-                onPressed: () {},
+              SizedBox(
+                width: 350,
+                height: 100,
+                child: ElevatedButton(
+                  child: const Text("vs Open"),
+                  onPressed: () {},
+                ),
               ),
-              ElevatedButton(
-                child: const Text("vs 3bet"),
-                onPressed: () {},
+              SizedBox(
+                width: 350,
+                height: 100,
+                child: ElevatedButton(
+                  child: const Text("vs 3bet"),
+                  onPressed: () {},
+                ),
               ),
-              ElevatedButton(
-                child: const Text("vs 4bet"),
-                onPressed: () {},
+              SizedBox(
+                width: 350,
+                height:100,
+                child: ElevatedButton(
+                  child: const Text("vs 4bet"),
+                  onPressed: () {},
+                ),
               ),
-              ElevatedButton(
-                child: const Text("vs 5bet"),
-                onPressed: () {},
+              SizedBox(
+                width: 350,
+                height: 100,
+                child: ElevatedButton(
+                  child: const Text("vs 5bet"),
+                  onPressed: () {},
+                ),
               ),
             ],
           ),
