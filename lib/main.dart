@@ -15,41 +15,56 @@ void main() {
             children: [
               SizedBox(
                 width: 350,
-                height: 100,
+                height: 80,
                 child: ElevatedButton(
-                  child: const Text("open"),
+                  child: const Text(
+                    "open",
+                    style: TextStyle(fontSize: 30),
+                  ),
                   onPressed: () {},
                 ),
               ),
               SizedBox(
                 width: 350,
-                height: 100,
+                height: 80,
                 child: ElevatedButton(
-                  child: const Text("vs Open"),
+                  child: const Text(
+                    "vs Open",
+                    style: TextStyle(fontSize: 30),
+                  ),
                   onPressed: () {},
                 ),
               ),
               SizedBox(
                 width: 350,
-                height: 100,
+                height: 80,
                 child: ElevatedButton(
-                  child: const Text("vs 3bet"),
+                  child: const Text(
+                    "vs 3bet",
+                    style: TextStyle(fontSize: 30),
+                  ),
                   onPressed: () {},
                 ),
               ),
               SizedBox(
                 width: 350,
-                height:100,
+                height: 80,
                 child: ElevatedButton(
-                  child: const Text("vs 4bet"),
+                  child: const Text(
+                    "vs 4bet",
+                    style: TextStyle(fontSize: 30),
+                  ),
                   onPressed: () {},
                 ),
               ),
               SizedBox(
                 width: 350,
-                height: 100,
+                height: 80,
                 child: ElevatedButton(
-                  child: const Text("vs 5bet"),
+                  child: const Text(
+                    "vs 5bet",
+                    style: TextStyle(fontSize: 30),
+                  ),
                   onPressed: () {},
                 ),
               ),
