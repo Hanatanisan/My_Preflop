@@ -4,10 +4,10 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.grey,
         appBar: AppBar(
           title: const Text('My Preflop'),
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.blueAccent,
         ),
         body: Center(
           child: Column(
